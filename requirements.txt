@@ -3,3 +3,4 @@ langchain_community
 langchain-openai
 python-dotenv
 langchain_ollama
+langchain_aws

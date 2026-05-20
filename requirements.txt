@@ -4,3 +4,4 @@ langchain-openai
 python-dotenv
 langchain_ollama
 langchain_aws
+fastmcp

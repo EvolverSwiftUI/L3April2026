@@ -23,6 +23,23 @@ def create_user(user: User):
 def get_user(user_id: str):
     return users.get(user_id, {"error": "User not found"})
 
+@mcp.prompt('user-creation-guide')
+def user_creation_prompt():
+    return """
+        When creating a user:
+        - Always provide a name and a valid email address.
+        - Email must be a valid email format
+        - Do not guess missing values 
+    """
+    
+    
+    
+@mcp.resource("users://all")
+def all_users():
+    return users
+
+    
+
 
 if __name__ == "__main__":
     mcp.run(transport="streamable-http",host="127.0.0.1",port=8002)

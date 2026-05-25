@@ -19,6 +19,11 @@ def subtract(a: int, b: int) -> int:
     """Subtract two numbers"""
     return a - b
 
+@mcp.tool
+def divide(a: int, b: int) -> int:
+    """Divide two numbers"""
+    return a // b
+
 
 if __name__ == "__main__":
     mcp.run(transport="streamable-http",host="127.0.0.1", port=8001)

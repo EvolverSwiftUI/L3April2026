@@ -1,0 +1,6 @@
+question,answer,ground_truth,faithfulness,answer_relevancy,context_precision,context_recall
+What is the maternity leave policy?,Employees are eligible for 6 months maternity leave.,Employees are eligible for 6 months maternity leave.,1.0,0.7,1.0,1.0
+How many days annual leave do employees get?,24 days.,Annual leave balance is 24 days.,1.0,1.0,1.0,1.0
+What is the notice period before resignation?,The notice period before resignation is 60 days.,Employees must serve 60 days notice period before resignation.,1.0,1.0,1.0,1.0
+Can employees work from home?,Yes—employees are allowed to work from home twice a week.,Work from home is allowed twice a week.,1.0,1.0,1.0,1.0
+What is the probation period for new employees?,I could not find that information in the document.,Probation period for new employees is 3 months.,0.0,0.3,0.0,0.0

@@ -1,0 +1,47 @@
+[
+  {
+    "question": "What is the maternity leave policy?",
+    "answer": "Employees are eligible for\u202f6\u202fmonths\u202fmaternity\u202fleave.",
+    "contexts": [
+      "Employees are eligible for 6 months maternity leave.\n\nEmployees must serve 60 days notice period before resignation.\n\nAnnual leave balance is 24 days.\n\nWork from home is allowed twice a week.",
+      "Employees are eligible for 6 months maternity leave.\n\nEmployees must serve 60 days notice period before resignation.\n\nAnnual leave balance is 24 days.\n\nWork from home is allowed twice a week."
+    ],
+    "ground_truth": "Employees are eligible for 6 months maternity leave."
+  },
+  {
+    "question": "How many days annual leave do employees get?",
+    "answer": "24 days.",
+    "contexts": [
+      "Employees are eligible for 6 months maternity leave.\n\nEmployees must serve 60 days notice period before resignation.\n\nAnnual leave balance is 24 days.\n\nWork from home is allowed twice a week.",
+      "Employees are eligible for 6 months maternity leave.\n\nEmployees must serve 60 days notice period before resignation.\n\nAnnual leave balance is 24 days.\n\nWork from home is allowed twice a week."
+    ],
+    "ground_truth": "Annual leave balance is 24 days."
+  },
+  {
+    "question": "What is the notice period before resignation?",
+    "answer": "The notice period before resignation is 60 days.",
+    "contexts": [
+      "Employees are eligible for 6 months maternity leave.\n\nEmployees must serve 60 days notice period before resignation.\n\nAnnual leave balance is 24 days.\n\nWork from home is allowed twice a week.",
+      "Employees are eligible for 6 months maternity leave.\n\nEmployees must serve 60 days notice period before resignation.\n\nAnnual leave balance is 24 days.\n\nWork from home is allowed twice a week."
+    ],
+    "ground_truth": "Employees must serve 60 days notice period before resignation."
+  },
+  {
+    "question": "Can employees work from home?",
+    "answer": "Yes\u2014employees are allowed to work from home twice a week.",
+    "contexts": [
+      "Employees are eligible for 6 months maternity leave.\n\nEmployees must serve 60 days notice period before resignation.\n\nAnnual leave balance is 24 days.\n\nWork from home is allowed twice a week.",
+      "Employees are eligible for 6 months maternity leave.\n\nEmployees must serve 60 days notice period before resignation.\n\nAnnual leave balance is 24 days.\n\nWork from home is allowed twice a week."
+    ],
+    "ground_truth": "Work from home is allowed twice a week."
+  },
+  {
+    "question": "What is the probation period for new employees?",
+    "answer": "I could not find that information in the document.",
+    "contexts": [
+      "Employees are eligible for 6 months maternity leave.\n\nEmployees must serve 60 days notice period before resignation.\n\nAnnual leave balance is 24 days.\n\nWork from home is allowed twice a week.",
+      "Employees are eligible for 6 months maternity leave.\n\nEmployees must serve 60 days notice period before resignation.\n\nAnnual leave balance is 24 days.\n\nWork from home is allowed twice a week."
+    ],
+    "ground_truth": "Probation period for new employees is 3 months."
+  }
+]

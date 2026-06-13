@@ -1,0 +1,8 @@
+langchain
+langchain-core
+langchain-text-splitters
+langchain-ollama
+langchain-chroma
+langchain-community
+sentence_transformers
+huggingface_hub
